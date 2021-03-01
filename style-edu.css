@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, helvetica, sans-serif;
+}
+header{
+	background-color: lightblue;
+	height: 100vh;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	margin-top: 10px;
+}
+.header nav{
+	margin-top: 30px;
+}
+.header nav ul{
+	list-style-type: none;
+	text-align: center;
+
+}
+.header nav ul li{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-table;
+	position: relative;
+}
+.header nav ul li a{
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	transition: 0.1s ease;
+}
+.header nav ul li a:hover{
+	border-bottom: 2px solid white;
+}
+.current{
+	border-bottom: 2px solid white;
+}
+.header nav ul li:hover .drop{
+	display: block;
+}
+.header nav ul li>.drop{
+	position: absolute;
+	display: none;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(5.jpg);
+	background-size: cover;
+}
+.content{
+	text-align: center;
+	color: white;
+}
+.content h1{
+	margin-top: 12px;
+	margin-bottom: 10px;
+	font-size: 34px;
+}
+.content button{
+	margin-top: 24px;
+	padding:10px 15px;
+	cursor: pointer;
+	border: 1px solid white;
+	outline: none;
+	background: none;
+	color: white;
+	transition: 0.4s all;
+}
+.content button:hover{
+	background: white;
+	color: black;
+}
+/*body*/
+.tieu-de{
+	margin-top: 15vh;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+.main{
+	margin-top: 5vh;
+	height: 50vh;
+	display: flex;
+	justify-content: space-between;
+}
+.main .box{
+	padding: 15px;
+	text-align: center;
+	width: 20%;
+	height: 20vh;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0px rgb(0 0 0 / 12%);
+}
+.main .box a{
+	text-decoration: none;
+	color: black;
+}
+.main .box:hover{
+	box-shadow: 0 2px 5px 0;
+}
+
+.bai-viet{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	height: 50vh;
+
+}
+.bai-viet .box-2{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 30%;
+	height: 30vh;
+
+}
+.bai-viet .box-2 h1{
+	border-bottom: 2px solid black;
+}
+.bai-viet .box-2 .box-3{
+	padding:5px;
+	display: flex;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.bai-viet .box-2 .box-3:hover{
+	box-shadow: 0 2px 5px 0px;
+}
+.bai-viet .box-2 .box-3 img{
+	width: 80px;
+	height: 80px;
+}
+.bai-viet .box-2 .box-3 h4{
+	margin-left: 10px;
+}
+
+footer {
+	margin-top: 30vh;
+	clear: both;
+	height: 200px;
+	background-color: gray;
+}
+.footer{
+	padding: 30px 0;
+	border-bottom: 2px solid black;
+}
+.footer p{
+	padding: 5px 0;
+}

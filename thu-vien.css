@@ -1,0 +1,31 @@
+.sach{
+	width: 80%;
+	margin: auto;
+	height: 65vh;
+	background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.8)
+  );
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.sach p{
+	margin: 10px 30px;
+}
+.sach p a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.sach p a:hover{
+	color: red;
+}
+.box-sach{
+	margin: 10px;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0px rgb(0 0 0 / 12%);
+}
+.box-sach h2{
+	text-align: center;
+}

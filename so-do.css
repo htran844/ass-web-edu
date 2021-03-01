@@ -1,0 +1,7 @@
+.sodo{
+	display: flex;
+	justify-content: space-between;
+}
+.video{
+	margin-left: 30px;
+}
